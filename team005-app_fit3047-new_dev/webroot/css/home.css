@@ -1,0 +1,236 @@
+/* Home page styles */
+@font-face {
+    font-family: 'cakefont';
+    src: url('../font/cakedingbats-webfont.eot');
+    src: url('../font/cakedingbats-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/cakedingbats-webfont.woff2') format('woff2'),
+    url('../font/cakedingbats-webfont.woff') format('woff'),
+    url('../font/cakedingbats-webfont.ttf') format('truetype'),
+    url('../font/cakedingbats-webfont.svg#cake_dingbatsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.slideshow-container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.slideshow-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+    object-fit: cover;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+
+#logo {
+    font-size: 2rem; /* increase font size */
+    font-weight: bold; /* make the text bold */
+    text-shadow: 1px 1px #ccc; /* add a subtle text shadow */
+    letter-spacing: 2px; /* increase letter spacing */
+    color: black;
+}
+
+.navbar-dark {
+    background-color:#94EDED ;
+}
+.navbar-nav .nav-link {
+    color: black !important;
+    color: black;
+    font-weight: bold;
+}
+
+.col-lg-5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.custom-bg-color {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+
+
+btn {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border-radius: 30px;
+}
+
+
+.about-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+
+.about-section .btn {
+    font-size: 24px;
+    padding: 15px 50px;
+    border-radius: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-container img {
+    margin-right: 20px;
+    max-width: 100%;
+    height: auto;
+}
+#about {
+    padding-top: 100px;
+}
+#about h2 {
+    text-align: center;
+}
+
+
+body {
+    background-color: linen; /* Set the background color to white */
+}
+
+.custom-btn-color {
+    background-color: rosybrown;
+    color:#ffffff;
+
+}
+
+.custom-btn-color {
+    background-color: rosybrown;
+}
+
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color:#007dc1;
+    border-radius:3px;
+    border:1px solid #124d77;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color:#0061a7;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+
+
+
+
+
+
+body {
+    padding: 60px 0;
+}
+header {
+    margin-bottom: 60px;
+}
+img {
+    margin-bottom: 30px;
+}
+h1 {
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0 0 30px 0;
+    padding-left: 25px;
+}
+a {
+    color: #0071BC;
+    text-decoration: underline;
+}
+hr {
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 0;
+    margin-bottom: 35px;
+}
+
+.text-center {
+    text-align: center;
+}
+.links a {
+    margin-right: 10px;
+}
+.release-name {
+    color: #D33C43;
+    font-weight: 400;
+    font-style: italic;
+}
+.bullet:before {
+    font-family: 'cakefont', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: -1px;
+}
+.success:before {
+    color: #88c671;
+    content: "\0056";
+}
+.problem:before {
+    color: #d33d44;
+    content: "\0057";
+}
+.cake-error {
+    padding: 10px;
+    margin: 10px 0;
+}
+#url-rewriting-warning {
+    display: none;
+}

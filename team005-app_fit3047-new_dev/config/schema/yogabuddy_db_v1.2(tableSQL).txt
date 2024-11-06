@@ -1,0 +1,7 @@
+CREATE TABLE Users ( id CHAR(36) PRIMARY KEY, email VARCHAR(100), first_name VARCHAR(30), last_name VARCHAR(30), level INT, password VARCHAR(30) );
+CREATE TABLE Payments ( id CHAR(36) PRIMARY KEY, user_id CHAR(36), date DATE, type VARCHAR(100), FOREIGN KEY (user_id) REFERENCES Users(id) );
+CREATE TABLE Courses ( id CHAR(36) PRIMARY KEY, date DATE, description VARCHAR(500), title VARCHAR(100) );
+CREATE TABLE Sections ( id CHAR(36) PRIMARY KEY, course_id CHAR(36), description VARCHAR(500), title VARCHAR(100), video VARCHAR(100), FOREIGN KEY (course_id) REFERENCES Courses(id) );
+CREATE TABLE Enrolments ( id CHAR(36) PRIMARY KEY, course_id CHAR(36), user_id CHAR(36), date DATETIME, FOREIGN KEY (course_id) REFERENCES Courses(id), FOREIGN KEY (user_id) REFERENCES Users(id) );
+CREATE TABLE Certifications ( id CHAR(36) PRIMARY KEY, enrolment_id CHAR(36), description VARCHAR(500), course_name VARCHAR(500), date DATE, FOREIGN KEY (enrolment_id) REFERENCES Enrolments(id) );
+CREATE TABLE contactform ( id CHAR(36) PRIMARY KEY, name CHAR(36), email CHAR(36), message TEXT, created TIMESTAMP, email_send TINYINT );
