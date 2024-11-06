@@ -1,0 +1,263 @@
+
+.carousel-caption {
+    color: black;
+    top: 10%;
+}
+.carousel-caption h5{
+    padding-bottom: 2vh;
+}
+.carousel-caption span{
+    font-size: 2vh;
+
+}
+span.hint{
+    font-size: 1.5vh;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 25px;
+    color: #0d8abf;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 25px;
+    color: #0d8abf;
+}
+
+
+
+h2.text-uppercase{
+    margin-top: 1em;
+    font-size: 56px;
+}
+
+.inputRow{
+    margin-top: 3%;
+    margin-left: 18%;
+    margin-right: 3%;
+    padding: 2% 5% 0 5% ;
+    background-color: rgba(99, 99, 98, 0.06);
+
+}
+.myTitle{
+    text-transform: uppercase;
+    font-size: 56px;
+    justify-content: center;
+    color: #0d8abf;
+
+}
+.mySubTitle{
+    margin-top: 0.5em;
+    text-transform: capitalize;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding: 0.2em;
+    font-size: 3vh;
+
+}
+
+.mySubTitle2{
+    color: white;
+    font-family: Helvetica;
+    font-weight: lighter;
+    padding: 0.1em;
+    font-size: 1.5vh;
+
+}
+.colorBox{
+    border-style:solid;
+    border-width: 2px;
+    border-color:black;
+    background-color:#404245 ;
+}
+.thinBox{
+    border-style:solid;
+    border-color:black;
+    border-width: 2px;
+
+}
+.thinBox-carLease{
+    border-style:solid;
+    border-color:black;
+    border-width: 2px;
+
+}
+.thinBox-carLease h7{
+    font-family: Helvetica;
+    font-size: 1.9vh;
+}
+.thinBox-retirement{
+    border-style:solid;
+    border-color:black;
+    border-width: 2px;
+
+
+
+}
+.thinBox-retirement h7 {
+    font-family: Helvetica;
+    font-size: 1.9vh;
+}
+
+.thinBox-carLease td{
+    padding-top: 20px;
+}
+.thinBox-incomeTax{
+    border-style:solid;
+    border-color:black;
+    border-width: 2px;
+}
+.thinBox-incomeTax h6{
+    font-weight: normal;
+    font-size: 1.9vh;
+    font-family: Helvetica;
+
+}
+.thinBox-incomeTax h5{
+    font-weight:bold;
+    font-size: xx-large;
+    font-family: Helvetica;
+}
+
+.row{
+    justify-content: center;
+}
+
+.inputRow h2{
+    font-family: Helvetica;
+}
+.inputRow span{
+    font-family: Helvetica;
+    margin-bottom: 2em;
+}
+.outputResult h4{
+    font-family: Helvetica;
+}
+.outputResult h6{
+    font-weight: lighter;
+    font-family: Helvetica;
+}
+.outputResult h2{
+    font-family: Helvetica;
+}
+.outputIncome h5{
+
+    font-family: Helvetica;
+}
+/*.outputResult td{*/
+/*    padding-bottom: 2em;*/
+/*}*/
+.calculate{
+    background-color: #000000;
+    color: #ebe8e8;
+
+}
+.blue{
+    color: #0baccc;
+    font-weight: bold;
+}
+
+
+
+.inputInner h2{
+    color: white;
+}
+
+@media only screen and (min-height: 1080px){
+    .mySubTitle{
+        margin-top: 0.5em;
+        text-transform: capitalize;
+        color: white;
+        font-family: Helvetica;
+        font-weight: bold;
+        padding: 0.2em;
+        font-size: 2.5vh;
+
+    }
+
+}
+
+@media only screen and (max-height: 1080px) {
+    .mySubTitle2{
+        color: white;
+        font-family: Helvetica;
+        font-weight: lighter;
+        padding: 0.1em;
+        font-size: 2vh;
+
+    }
+    .thinBox-carLease h7{
+        font-family: Helvetica;
+        font-size: 2.5vh;
+    }
+    .thinBox-retirement h7 {
+        font-family: Helvetica;
+        font-size: 2.5vh;
+    }
+    .thinBox-incomeTax h6{
+        font-weight: normal;
+        font-size: 2.5vh;
+        font-family: Helvetica;
+
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .outputIncome{
+       width: fit-content;
+
+    }
+    .inputRow{
+        width: fit-content;
+    }
+
+}
+@media only screen and (max-width: 900px) {
+
+    .container-title h2{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (min-width: 1900px) {
+    .outputIncome{
+        max-width: 603px;
+    }
+}
+@media only screen and (max-width: 450px) {
+
+    .inputRow{
+        margin: auto;
+    }
+    .outputResult{
+        margin: 10% 0;
+
+    }
+    .outputIncome{
+        width: 80%;
+        margin: 10% 20%;
+    }
+
+
+}
+label.error {
+    float: none; color: red;
+    padding-left: .5em;
+    vertical-align: top;
+    display: block;
+}

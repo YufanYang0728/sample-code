@@ -1,0 +1,60 @@
+/* Create two equal columns that floats next to each other
+.column {
+    float: left;
+    width: 27%;
+    padding: 5px;
+}
+
+.product{
+    width:43%;
+    height:35%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.name{
+    font-size:30px;
+}
+
+select {
+    border: 1px solid #999;
+    color: #1c87c9;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 4px 4px #ccc;
+}
+
+select option {
+    background-color: lightcyan;
+    color: black;
+    font-family:Arial;
+    font-size: 20px;
+    border: 1px solid #999;
+    color: #1c87c9;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 4px 4px #ccc;
+}
+
+input[type=number] {
+    width:100%;
+    border: 1px solid #999;
+    color: #1c87c9;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 4px 4px #ccc;
+    -moz-appearance: textfield;
+}
+
+input-group-addon{
+    height:10%;
+}
+
+.output{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    size:20px;
+} */
